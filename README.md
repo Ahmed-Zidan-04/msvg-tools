@@ -27,7 +27,7 @@ Each `<Page>` typically contains a complete <svg> element, including its own vie
 
 ---
 
-# MSVG is useful for:
+### MSVG is useful for:
 
 -    Digital books made from multiple vector pages
 
@@ -105,5 +105,6 @@ Compile:
 ```
 go build -o svg2msvg.exe main.go
 ```
+
 
 
