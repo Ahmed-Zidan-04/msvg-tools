@@ -23,8 +23,10 @@ An **MSVG** file is an XML-based container format that can hold multiple SVG pag
 </MSVG>
 ```
 
-Each <Page> typically contains a complete <svg> element, including its own viewBox and style definitions.
--
+Each `<Page>` typically contains a complete <svg> element, including its own viewBox and style definitions.
+
+---
+
 MSVG is useful for:
 
 -    Digital books made from multiple vector pages
@@ -103,3 +105,4 @@ Compile:
 ```
 go build -o svg2msvg.exe main.go
 ```
+
