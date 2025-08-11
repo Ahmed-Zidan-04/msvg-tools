@@ -6,7 +6,7 @@
 
 ## 🖼 What is MSVG?
 
-An **MSVG** file is an XML-based container format that can hold multiple SVG pages in a single file.
+An **MSVG** file is an XML-based container format that can hold multiple SVG pages in a single file. It is designed to be an open-source, alternative to PDF.
 
 ### Structure example:
 ```xml
@@ -109,6 +109,7 @@ Compile:
 ```
 go build -o svg2msvg.exe main.go
 ```
+
 
 
 
