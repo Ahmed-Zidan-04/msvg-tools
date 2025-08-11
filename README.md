@@ -25,7 +25,8 @@ An **MSVG** file is an XML-based container format that can hold multiple SVG pag
 
 Each `<Page>` typically contains a complete <svg> element, including its own viewBox and style definitions.
 
----
+ <br/>
+ 
 The MSVG format is fully transparent — it’s just plain text XML. You can open it with any text editor to inspect or edit its contents. Because it doesn’t contain executable code, it’s safe by design and cannot carry malware.
 
 ---
@@ -108,6 +109,7 @@ Compile:
 ```
 go build -o svg2msvg.exe main.go
 ```
+
 
 
 
