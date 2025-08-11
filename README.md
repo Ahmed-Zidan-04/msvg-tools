@@ -4,7 +4,7 @@
 
 ---
 
-## 🖼 What is MSVG?
+##  What is MSVG?
 
 An **MSVG** file is an XML-based container format that can hold multiple SVG pages in a single file. It is designed to be an open-source, alternative to PDF.
 
@@ -41,7 +41,7 @@ Each `<Page>` typically contains a complete <svg> element, including its own vie
 
 ---
 	
-## 📄 MSVG Viewer (Python)
+##  MSVG Viewer (Python)
 
 A standalone desktop application for viewing `.msvg` files with multiple pages.  
 Built with [pywebview](https://pywebview.flowrl.com/) for a browser-free, cross-platform experience.
@@ -56,7 +56,7 @@ Built with [pywebview](https://pywebview.flowrl.com/) for a browser-free, cross-
 	
 ---
 
-## 🔄 SVG → MSVG Converter (Go)
+##  SVG → MSVG Converter (Go)
 
 A fast command-line tool that merges multiple `.svg` files into one `.msvg` file.
 
@@ -69,7 +69,7 @@ A fast command-line tool that merges multiple `.svg` files into one `.msvg` file
 ---
 	
 
-## 📥 Downloads
+##  Downloads
 
 You can get ready-to-use Windows executables for both the viewer and converter from the
 Releases page.
@@ -84,7 +84,7 @@ Each release includes:
 	
 	
 ---
-## 🛠 Building from Source
+##  Building from Source
 
 ### MSVG Viewer (Python)
 
@@ -109,6 +109,7 @@ Compile:
 ```
 go build -o svg2msvg.exe main.go
 ```
+
 
 
 
